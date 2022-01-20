@@ -485,7 +485,7 @@ textarea {
   margin-left: 35%;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .flex__container {
     display: flex;
   }
