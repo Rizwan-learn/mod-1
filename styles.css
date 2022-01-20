@@ -54,7 +54,7 @@ a {
   background-color: #6070ff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hamburger {
     display: block;
   }
@@ -485,7 +485,7 @@ textarea {
   margin-left: 35%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   .flex__container {
     display: flex;
   }
@@ -493,11 +493,6 @@ textarea {
   .flex__child {
     flex: 1;
     margin: 0 20px;
-  }
-
-  .nav-link {
-    display: inline;
-    margin-top: 100px;
   }
 
   .intro h1 {
