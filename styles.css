@@ -404,3 +404,81 @@ ul.skills-langs {
 .languages p {
   width: auto;
 }
+
+.contact-me-page {
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  background-image: url("Image/new-contact-form-background-shapes.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.contact-me-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 110px;
+}
+
+.contact-me-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  width: 569px;
+}
+
+input {
+  color: #172b4d;
+  height: 48px;
+  border-radius: 10px;
+  outline: none;
+  width: 447px;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
+  padding-left: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+textarea {
+  color: #172b4d;
+  height: 170px;
+  width: 447px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
+  padding-left: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #396df2;
+  background-color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 8px;
+  margin-left: 35%;
+}
