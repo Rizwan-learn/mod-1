@@ -95,11 +95,10 @@ a {
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav-item {
-  margin-left: 5rem;
+  margin-left: 10rem;
 }
 
 .nav-link {
@@ -310,21 +309,19 @@ a {
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   font-family: poppins, sans-serif;
-  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .about-content-container {
-  padding-left: 90px;
-  padding-right: 30px;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
   color: #344563;
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 60%;
   display: flex;
-  max-width: 60%;
-  margin-left: 100px;
+  margin-left: 20%;
 }
 
 .about-social {
@@ -485,50 +482,54 @@ textarea {
   margin-left: 35%;
 }
 
-@media (max-width: 993px) {
-  .flex__container {
-    display: flex;
-  }
+@media (max-width: 992px) {
+    .flex__container {
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+    }
 
-  .flex__child {
-    flex: 1;
-    margin: 0 20px;
-  }
+    .flex__child {
+        flex: 1;
+        margin: 0 20px;
+      }
+    
+      .flex__child:first-child {
+        margin-right: 20px;
+      }
 
-  .intro h1 {
-    width: 920px;
-  }
+    img {
+        width: 105%;
+        height: 100%;
+    }
 
-  .intro .intro-para {
-    width: 750px;
-  }
+    .about {
+        margin: 0;
+    }
 
-  .portfolio {
-    margin: 5% 4%;
-  }
+    .lang-child {
+        padding: 10px;
+        margin: -10px;
+        
+    }
 
-  .languages {
-    display: inline-block;
-    background-color: #f7f7f9;
-    background-size: 30%;
-  }
+    .skills-langs {
+        display: inline-block;
+        background-color: #f7f7f9;
+        background-size: 30%;
+        flex-direction: column;
+    }
 
-  .contact-me-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10%;
-    width: 447px;
-  }
+    .languages {
+      display: flex;
+    }
 
-  .input {
-    border-radius: 0;
-  }
+    .languages p {
+    }
 
-  .text__area {
-    border-radius: 0;
-  }
+    .lang-child img {
+        width: 10%;
+        height: 15%;
+    }
 
-  .button {
-    margin: 22px auto;
-  }
 }
