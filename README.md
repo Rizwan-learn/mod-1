@@ -31,7 +31,7 @@ Deployment <br>
 restrict deployment 
 _________________
 
-# 👤 Author1 <br>
+# 👤 Author <br>
 
 GitHub: @rizwan-learn <br>
 Twitter: @rizwanhasan21 <br>
