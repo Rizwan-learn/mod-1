@@ -369,7 +369,7 @@ a {
 .skill-lang {
   align-items: center;
   justify-content: space-between;
-  width: auto;  
+  width: auto;
 }
 
 .skill-title {
@@ -397,7 +397,7 @@ ul.skills-langs {
   font-size: 15px;
   font-weight: bold;
   display: flex;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .languages p {
