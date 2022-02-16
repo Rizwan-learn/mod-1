@@ -54,7 +54,7 @@ a {
   background-color: #6070ff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .hamburger {
     display: block;
   }
@@ -189,6 +189,7 @@ a {
 
 .portfolio-content-container {
   display: flex;
+  flex-direction: column;
 }
 
 .portfolio-content-child {
@@ -322,6 +323,7 @@ a {
   width: 60%;
   display: flex;
   margin-left: 20%;
+  flex-direction: column;
 }
 
 .about-social {
@@ -358,19 +360,16 @@ a {
 }
 
 .lang-child {
-  padding-left: 50px;
-  padding-right: 30px;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
   padding-bottom: 20px;
-  margin-left: 100px;
 }
 
 .skill-lang {
   align-items: center;
   justify-content: space-between;
-  width: auto;
+  width: auto;  
 }
 
 .skill-title {
@@ -385,7 +384,7 @@ a {
 
 ul.skills-langs {
   display: flex;
-  gap: 5px;
+  flex-direction: column;
 }
 
 .languages {
@@ -397,11 +396,12 @@ ul.skills-langs {
   border-radius: 15px;
   font-size: 15px;
   font-weight: bold;
-  gap: 80px;
+  display: flex;
+  gap: 10px; 
 }
 
 .languages p {
-  width: auto;
+  flex-direction: row;
 }
 
 .contact-me-page {
@@ -422,6 +422,7 @@ ul.skills-langs {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  border-top-left-radius: 100px;
 }
 
 .contact-me-title {
@@ -482,10 +483,10 @@ textarea {
   margin-left: 35%;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .flex__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
   }
 
@@ -516,7 +517,7 @@ textarea {
     display: inline-block;
     background-color: #f7f7f9;
     background-size: 30%;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .languages {
