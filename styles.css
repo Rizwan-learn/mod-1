@@ -76,6 +76,17 @@ a {
   font-size: 18px;
   font-weight: 700;
   color: #6070ff;
+  animation: rotation 2.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .intro {
@@ -699,3 +710,4 @@ a {
     background-size: 80% 85%;
   }
 }
+
