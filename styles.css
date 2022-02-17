@@ -76,6 +76,17 @@ a {
   font-size: 18px;
   font-weight: 700;
   color: #6070ff;
+  animation: rotation 2.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .intro {
@@ -129,6 +140,12 @@ a {
   gap: 20px;
   font-family: poppins, sans-serif;
   padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+  border: 2px solid #a7aeff;
 }
 
 .card {
