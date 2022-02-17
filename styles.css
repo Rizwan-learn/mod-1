@@ -142,19 +142,19 @@ a {
   padding: 20px;
 }
 
-.card:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
-  border: 2px solid #a7aeff;
-}
-
 .card {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
 }
 
-.card__img {
+.card:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+  border: 2px solid #a7aeff;
+}
+
+.card img {
   width: 100%;
 }
 
