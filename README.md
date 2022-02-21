@@ -10,6 +10,7 @@ GITHub Page <br>
 Figma Template <br>
 _________________
 # Getting Started <br>
+To get Online Portfolio use this link - https://rizwan-learn.github.io/ - <br>
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites - <br>
