@@ -642,32 +642,55 @@ a {
     margin: 22px auto;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
-    left: 100%;
+    left: 110%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
     width: 100%;
     border-radius: 10px;
-    text-align: center;
+    float: left;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    background-color: #6070FF;
   }
 
   .nav-menu.active {
     left: 0;
+    opacity: 0.9;
+    align-items: flex-start;
+    padding-bottom: 100%;
   }
 
   .nav-item {
     margin: 40px 0;
   }
 
+  .nav-link {
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: flex-start;
+  }
+
   .hamburger {
     display: block;
-    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .desktop {
