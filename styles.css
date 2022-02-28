@@ -659,7 +659,7 @@ a {
 
   .nav-menu.active {
     left: 0;
-    opacity: 0.9;
+    opacity: 0.96;
     align-items: flex-start;
     padding-bottom: 100%;
     padding-top: 100px;
