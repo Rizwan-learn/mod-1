@@ -626,3 +626,7 @@ a {
   }
 }
 
+.modal-container {
+  background-color: #fff;
+  border-radius: 5px;
+}
