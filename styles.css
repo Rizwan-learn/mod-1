@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scope+One&display=swap");
+
 body {
   font-family: sans-serif;
   background-color: #f7f7f9;
@@ -14,7 +16,6 @@ h2 {
 }
 
 header {
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -587,6 +588,11 @@ a {
     display: block;
   }
 
+  .project-tools {
+    padding: 0;
+  }
+
+  
   .modal-flex {
     display: block;
     height: 50vh;
@@ -594,7 +600,7 @@ a {
     padding: 0;
   }
 
-  .modal-description p {
+   .modal-description p {
     width: 100%;
   }
 
@@ -617,7 +623,6 @@ a {
 
   .modal {
     top: 30px;
-    left: 10px;
   }
 
   .contact__me {
@@ -626,7 +631,63 @@ a {
   }
 }
 
-.modal-container {
-  background-color: #fff;
-  border-radius: 5px;
+.modal {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 95vh;
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.modal-header h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 32px;
+  color: black;
+}
+
+.modal-btns {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  border-top: whitesmoke solid 2px;
+  justify-content: space-around;
+}
+
+.modal-btns button a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  color: #7b83dd;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  padding: 0;
+}
+
+.modal-btns button {
+  background: white;
+  margin: 15px;
+  padding: 10px;
+  border: #7b83dd solid 2px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.modal-btns button img {
+  height: 20px;
+  width: 20px;
 }
