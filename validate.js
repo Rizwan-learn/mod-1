@@ -1,4 +1,3 @@
-
 const form = document.getElementById('form');
 function validation(e) {
   const email = document.getElementById('email').value;
