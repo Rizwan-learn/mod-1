@@ -1,49 +1,49 @@
 const projects = [
-    {
-      title: 'Tonic',
-      src: 'image/Snapshoot-Portfolio.png',
-      description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.'],
-      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'Multi-post stories',
-      src: 'image/Snapshoot-Portfolio-1.png',
-      description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
-      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'Facebook 360',
-      src: 'image/Snapshoot-Portfolio-2.png',
-      description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
-      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-    {
-      title: 'Uber Navigation',
-      src: 'image/Snapshoot-Portfolio-3.png',
-      description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
-      technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-      seeLiveLink: '#',
-      seeSourceLink: '#',
-    },
-  ];
-  
-  const BtnsMobile = document.getElementsByClassName('btn-mobile');
-  const projectWorkMobile = document.querySelector('.project-mobile');
-  const Btns = document.getElementsByClassName('btn-desktop');
-  const projectWork = document.querySelector('.project-desktop');
-  const popUp = document.createElement('section');
-  popUp.classList.add('modal');
-  
-  function popUpDesktop(cardNumber) {
-    popUp.style.display = 'block';
-    projectWork.appendChild(popUp);
-    popUp.innerHTML = `
+  {
+    title: 'Tonic',
+    src: 'image/Snapshoot-Portfolio.png',
+    description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'Multi-post stories',
+    src: 'image/Snapshoot-Portfolio-1.png',
+    description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'Facebook 360',
+    src: 'image/Snapshoot-Portfolio-2.png',
+    description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+  {
+    title: 'Uber Navigation',
+    src: 'image/Snapshoot-Portfolio-3.png',
+    description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur. minus beatae ullam laudantium animi, ad rem atque veritatis suscipit. Omnis consequuntur, numquam rem voluptatum voluptate assumenda recusandae impedit ut facilis minus totam odio magni repellat natus quisquam vitae atque ad asperiores optio unde incidunt, esse quaerat sequi iste. Ratione asperiores est magni sequi vitae repellat, totam eius aspernatur consectetur, quibusdam minus repudiandae dolor temporibus excepturi quasi eaque iste animi quo omnis placeat modi fuga. Fugit esse sapiente recusandae est doloremque labore eligendi expedita, eos pariatur in neque consequuntur asperiores ullam, exercitationem id dolores!'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    seeLiveLink: '#',
+    seeSourceLink: '#',
+  },
+];
+
+const BtnsMobile = document.getElementsByClassName('btn-mobile');
+const projectWorkMobile = document.querySelector('.project-mobile');
+const Btns = document.getElementsByClassName('btn-desktop');
+const projectWork = document.querySelector('.project-desktop');
+const popUp = document.createElement('section');
+popUp.classList.add('modal');
+
+function popUpDesktop(cardNumber) {
+  popUp.style.display = 'block';
+  projectWork.appendChild(popUp);
+  popUp.innerHTML = `
         <div class="modal-content">
         <div>
         <div class="modal-header">
@@ -105,23 +105,23 @@ const projects = [
         </div>
       </div>
       </section>`;
-    document.addEventListener('click', (event) => {
-      if (event.target.id === 'close-popUp') {
-        popUp.style.display = 'none';
-      }
-    });
-  }
-  
-  for (let i = 0; i < Btns.length; i += 1) {
-    Btns[i].addEventListener('click', () => {
-      popUpDesktop(i);
-    });
-  }
-  
-  function popUpMobile(cardNumber) {
-    popUp.style.display = 'block';
-    projectWorkMobile.appendChild(popUp);
-    popUp.innerHTML = `
+  document.addEventListener('click', (event) => {
+    if (event.target.id === 'close-popUp') {
+      popUp.style.display = 'none';
+    }
+  });
+}
+
+for (let i = 0; i < Btns.length; i += 1) {
+  Btns[i].addEventListener('click', () => {
+    popUpDesktop(i);
+  });
+}
+
+function popUpMobile(cardNumber) {
+  popUp.style.display = 'block';
+  projectWorkMobile.appendChild(popUp);
+  popUp.innerHTML = `
         <div class="modal-content">
         <div>
         <div class="modal-header">
@@ -150,7 +150,7 @@ const projects = [
         </div>
         <div class="modal-technologies">
           <ul class="project-tools">
-              <ul class="tech__mini__btn">
+              
                   <li class="btn tech__btn">
                   <p>${projects[cardNumber].technologies[0]}</p>
                   </li>
@@ -160,7 +160,7 @@ const projects = [
                   <li class="btn tech__btn">
                   <p>${projects[cardNumber].technologies[2]}</p>
                   </li>
-              </ul>
+              
           </ul>
           <div class="modal-btns">
           <button>
@@ -174,68 +174,66 @@ const projects = [
         </div>
       </div>
       </section>`;
-    document.addEventListener('click', (event) => {
-      if (event.target.id === 'close-popUp') {
-        popUp.style.display = 'none';
-      }
-    });
+  document.addEventListener('click', (event) => {
+    if (event.target.id === 'close-popUp') {
+      popUp.style.display = 'none';
+    }
+  });
+}
+
+for (let i = 0; i < BtnsMobile.length; i += 1) {
+  BtnsMobile[i].addEventListener('click', () => {
+    popUpMobile(i);
+  });
+}
+
+const formId = 'form';
+const formIdentifier = `${url} ${formId}`;
+const saveButton = document.querySelector('#submitButton');
+const form = document.querySelector(`#${formId}`);
+const formElements = form.elements;
+
+const getFormData = () => {
+  const data = { [formIdentifier]: {} };
+  for (const element of formElements) {
+    if (element.name.length > 0) {
+      data[formIdentifier][element.name] = element.value;
+    }
   }
-  
-  for (let i = 0; i < BtnsMobile.length; i += 1) {
-    BtnsMobile[i].addEventListener('click', () => {
-      popUpMobile(i);
-    });
+  return data;
+};
+
+saveButton.onclick = (event) => {
+  function validation(e) {
+    const email = document.getElementById('email').value;
+
+    const text = document.getElementById('text');
+    const pattern = /^([a-z0-9._]+)@([a-z0-9])+.([a-z]+)(.[a-z]+)?$/;
+
+    if (email.match(pattern)) {
+      text.innerHTML = 'Your Email Address is valid';
+      text.style.color = 'green';
+    } else {
+      text.innerHTML = 'Enter valid Email using small letter only';
+      text.style.color = 'red';
+      e.preventDefault();
+    }
   }
-  
-  const formId = 'form';
-  const url = location.href;
-  const formIdentifier = `${url} ${formId}`;
-  const saveButton = document.querySelector('#submitButton');
-  const form = document.querySelector(`#${formId}`);
-  const formElements = form.elements;
-  
-  const getFormData = () => {
-    const data = { [formIdentifier]: {} };
+
+  form.addEventListener('submit', validation);
+  const data = getFormData();
+  localStorage.setItem(formIdentifier, JSON.stringify(data[formIdentifier]));
+};
+
+const populateForm = () => {
+  if (localStorage.key(formIdentifier)) {
+    const savedData = JSON.parse(localStorage.getItem(formIdentifier));
     for (const element of formElements) {
-      if (element.name.length > 0) {
-        data[formIdentifier][element.name] = element.value;
+      if (element.name in savedData) {
+        element.value = savedData[element.name];
       }
     }
-    return data;
-  };
-  
-  saveButton.onclick = (event) => {
-    function validation(e) {
-      const email = document.getElementById('email').value;
-  
-      const text = document.getElementById('text');
-      const pattern = /^([a-z0-9._]+)@([a-z0-9])+.([a-z]+)(.[a-z]+)?$/;
-  
-      if (email.match(pattern)) {
-        text.innerHTML = 'Your Email Address is valid';
-        text.style.color = 'green';
-      } else {
-        text.innerHTML = 'Enter valid Email using small letter only';
-        text.style.color = 'red';
-        e.preventDefault();
-      }
-    }
-  
-    form.addEventListener('submit', validation);
-    const data = getFormData();
-    localStorage.setItem(formIdentifier, JSON.stringify(data[formIdentifier]));
-  };
-  
-  const populateForm = () => {
-    if (localStorage.key(formIdentifier)) {
-      const savedData = JSON.parse(localStorage.getItem(formIdentifier));
-      for (const element of formElements) {
-        if (element.name in savedData) {
-          element.value = savedData[element.name];
-        }
-      }
-    }
-  };
-  
-  document.onload = populateForm();
-  
+  }
+};
+
+document.onload = populateForm();
