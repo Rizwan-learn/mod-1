@@ -592,7 +592,8 @@ a {
   }
 
   .modal-flex {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 50vh;
     margin-left: 0;
     padding: 0;
@@ -609,6 +610,22 @@ a {
     justify-content: flex-start;
   }
 
+  .modal-btns button a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #7b83dd;
+    font-size: 24px;
+    margin-top: 5%;
+    font-weight: 700;
+    padding: 0;
+  }
+
+  .modal-btns button img {
+    height: 30px;
+    width: 30px;
+  }
+
   .modal-btns {
     width: 100%;
     margin: 0;
@@ -623,11 +640,6 @@ a {
     width: 90%;
   }
 
-  .modal-flex {
-    display: flex;
-    flex-direction: column;
-  }
-  
   .tech__mini__btn {
     display: flex;
     gap: 20px;
@@ -681,7 +693,6 @@ a {
 .modal-btns button a {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   gap: 10px;
   color: #7b83dd;
   font-size: 12px;
@@ -696,7 +707,7 @@ a {
   padding: 10px;
   border: #7b83dd solid 2px;
   border-radius: 8px;
-  width: 100%;
+  width: auto;
 }
 
 .modal-btns button img {
