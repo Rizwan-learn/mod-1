@@ -518,7 +518,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 988px) {
   .nav-menu {
     position: fixed;
     left: 110%;
@@ -633,11 +633,6 @@ a {
 
   .modal-btns button {
     width: 50vh;
-  }
-
-  .modal {
-    top: 30px;
-    width: 90%;
   }
 
   .tech__mini__btn {
