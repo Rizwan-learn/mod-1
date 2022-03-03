@@ -419,7 +419,6 @@ a {
   background-color: #7b83dd;
 }
 
-
 @media (min-width: 992px) {
   .flex__container {
     display: flex;
@@ -592,7 +591,6 @@ a {
     padding: 0;
   }
 
-  
   .modal-flex {
     display: block;
     height: 50vh;
@@ -600,16 +598,12 @@ a {
     padding: 0;
   }
 
-   .modal-description p {
+  .modal-description p {
     width: 100%;
   }
 
   .modal-technologies {
     width: 100%;
-  }
-
-  .project-tools {
-    padding: 0;
   }
 
   .modal-btns {
@@ -623,6 +617,7 @@ a {
 
   .modal {
     top: 30px;
+    width: 90%;
   }
 
   .contact__me {
