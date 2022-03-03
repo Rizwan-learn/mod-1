@@ -604,6 +604,9 @@ a {
 
   .modal-technologies {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .modal-btns {
@@ -618,6 +621,16 @@ a {
   .modal {
     top: 30px;
     width: 90%;
+  }
+
+  .modal-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tech__mini__btn {
+    display: flex;
+    gap: 20px;
   }
 
   .contact__me {
@@ -653,9 +666,13 @@ a {
   color: black;
 }
 
+.modal-flex {
+  display: flex;
+}
+
 .modal-btns {
   width: 100%;
-  height: 10%;
+  height: auto;
   display: flex;
   border-top: whitesmoke solid 2px;
   justify-content: space-around;
