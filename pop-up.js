@@ -39,6 +39,8 @@ const Btns = document.getElementsByClassName('btn-desktop');
 const projectWork = document.querySelector('.project-desktop');
 const popUp = document.createElement('section');
 popUp.classList.add('modal');
+const parent = document.querySelector ('.parent');
+const button = document.querySelectorAll ('button');
 
 function popUpDesktop(cardNumber) {
   popUp.style.display = 'block';
