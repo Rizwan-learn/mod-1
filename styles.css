@@ -657,11 +657,11 @@ a {
   transform: translate(-50%, -50%);
   height: 95vh;
   overflow-y: scroll;
-  border-radius: 20px;  
+  border-radius: 20px;
   z-index: 1;
   padding: 100%;
   backdrop-filter: blur(20px);
-  border:  rgba(0, 0, 0, 0.4);
+  border: rgba(0, 0, 0, 0.4);
   width: 70%;
 }
 
