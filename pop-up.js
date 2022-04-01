@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: 'Tonic',
-    src: 'image/Snapshoot-Portfolio.png',
+    title: 'To Do list',
+    src: 'image/project-1.png',
     description: ['Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse magnam odit eveniet possimus dignissimos iusto tenetur.'],
-    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-    seeLiveLink: '#',
-    seeSourceLink: '#',
+    technologies: ['html', 'css', 'javascript', 'github'],
+    seeLiveLink: 'https://rizwan-learn.github.io/Mod2-TodoList/dist/index.html',
+    seeSourceLink: 'https://github.com/Rizwan-learn/mod-1/tree/main',
   },
   {
     title: 'Multi-post stories',
